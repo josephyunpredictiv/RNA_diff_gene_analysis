@@ -1,0 +1,7 @@
+sampleName,fileName,condition,ID
+sample_4_day1,../../data/Analysis2/clean-BNT_Convalescent_4_Day1_R1_001.fastq-paired.fastq_sorted.txt,E,4
+sample_15_day1,../../data/Analysis2/clean-BNT_Convalescent_15_Day1_R1_001.fastq-paired.fastq_sorted.txt,E,15
+sample_16_day1,../../data/Analysis2/clean-BNT_Convalescent_16_Day1_R1_001.fastq-paired.fastq_sorted.txt,E,16
+sample_4_day0,../../data/Analysis2/clean-BNT_Convalescent_4_Day0_R1_001.fastq-paired.fastq_sorted.txt,C,4
+sample_15_day0,../../data/Analysis2/clean-BNT_Convalescent_15_Day0_R1_001.fastq-paired.fastq_sorted.txt,C,15
+sample_16_day0,../../data/Analysis2/clean-BNT_Convalescent_16_Day0_R1_001.fastq-paired.fastq_sorted.txt,C,16
