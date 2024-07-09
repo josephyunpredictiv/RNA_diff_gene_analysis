@@ -7,7 +7,7 @@ library(ggplot2)
 library(ggrepel)
 
 title="Homologous_Vaccination_Convalescent_cross_sectional"
-directory = "/Users/josephyun/Desktop/AI/Data_Analysis/LeeHyeKyung/"
+directory = "XXXXXX"
 subdirectory = paste0(directory,title)
 setwd(directory)
 dir.create(title)
