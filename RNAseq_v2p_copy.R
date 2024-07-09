@@ -7,7 +7,7 @@ library("pheatmap")
 # Create sample tables#
 ############################
 
-setwd("/Users/josephyun/Desktop/AI/Data_Analysis/LeeHyeKyung/sample_tables/")
+setwd("XXXXX/sample_tables/")
 system("cat sample_table_Analysis2ap_Day1_SNP_vs_Day0_SNP.csv | sed -e 's/day1/day7/' -e 's/Day1/Day7/' > sample_table_Analysis2bp_Day7_SNP_vs_Day0_SNP.csv")
 system("cat sample_table_Analysis2ap_Day1_SNP_vs_Day0_SNP.csv | sed -e 's/day1/month4/' -e 's/Day1/5/' > sample_table_Analysis2cp_Month4_SNP_vs_Day0_SNP.csv")
 
@@ -20,7 +20,7 @@ system("cat sample_table_Analysis2dp_Day1_C_vs_Day0_C.csv | sed -e 's/day1/month
 ############################
 
 title="Analysis2ap_Day1_SNP_vs_Day0_SNP"
-directory = "/Users/josephyun/Desktop/AI/Data_Analysis/LeeHyeKyung/Analysis2/"
+directory = "XXXXX"
 adjusted_p_value_cutoff=0.05
 
 setwd(directory)
@@ -56,7 +56,7 @@ write.csv(normalized_counts, file="normalized_counts.csv")
 ####################################
 
 title="Analysis2bp_Day7_SNP_vs_Day0_SNP"
-directory = "/Users/josephyun/Desktop/AI/Data_Analysis/LeeHyeKyung/Analysis2/"
+directory = "XXXXXX"
 adjusted_p_value_cutoff=0.05
 
 setwd(directory)
